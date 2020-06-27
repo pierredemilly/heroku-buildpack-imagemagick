@@ -69,7 +69,7 @@ cat > $INSTALL_DIR/policy.xml <<EOF
   <policy domain="resource" name="width" value="20KP"/>
   <policy domain="resource" name="height" value="20KP"/>
   <policy domain="resource" name="area" value="128MB"/>
-  <policy domain="resource" name="disk" value="1GiB"/>
+  <policy domain="resource" name="disk" value="10GiB"/>
   <policy domain="delegate" rights="none" pattern="URL" />
   <policy domain="delegate" rights="none" pattern="HTTPS" />
   <policy domain="delegate" rights="none" pattern="HTTP" />
